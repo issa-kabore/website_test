@@ -1,2 +1,2 @@
-# issa-kabore.github.io
+# https://issa-kabore.github.io/
 My portfolio
