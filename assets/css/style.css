@@ -397,6 +397,48 @@ section {
   background-color: #149ddd;
 }
 
+
+.skill-category {
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+}
+
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+}
+
+.skill img {
+  width: 100px;
+  height: 100px;
+}
+
+
+.skill-category img{
+  width: 60px;
+  height: 60px;
+}
+
+
+.skill p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -993,3 +1035,88 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+
+/*--------------------------------------------------------------
+# skill effect
+-------------------------------------------------------
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.skill-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.skill-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill-description {
+  font-size: 18px;
+  color: #333;
+  display: none;
+}
+
+
+.skillsGrid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  grid-auto-rows: auto;
+  height: auto;
+}
+.skillsGrid img {
+height: 100px;
+width: 100px;
+}
+.skills{
+background-color: whitesmoke;
+display: flex;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+-------*/
+
+/*
+// import the Skill component as Skill for use in this component
+import Skill from './Skill'
+
+function Skills() {
+    return (
+        <div className="skills">
+                {* heading for title *}
+                <h2>I have experience with these technologies</h2>
+                {* Create a div and give it a class of skillsGrid for styling *}
+            <div className="skillsGrid">
+                {* Let's render multiple copies of the Skill component. Make sure you update *}the source, alt, and title for each icon
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="The logo icon for react" title="React"/>
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="The logo icon for HTML 5" title="HTML 5"/>
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="The logo icon for CSS3" title="CSS 3"/>
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="The logo icon for TailwindCSS" title="Twilwind CSS"/>
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="The logo icon for GitHub" title="GitHub"/>
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="The logo icon for NPM" title="NPM"/>
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="The logo icon for NodeJS" title="Node JS"/>
+            </div>            
+        </div>
+    )
+}
+export default Skills*/
