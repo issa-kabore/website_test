@@ -1,0 +1,17 @@
+About:
+Hello, I'm Issa Kaboré. <br>
+            Graduated from the engineering school Polytech Clermont (now IPN Clermont Auvergne). <br>
+            I love playing with data to make them tell beautiful stories.<br>
+            Curious, dynamic and passionate about innovation and new technologies. <br>
+
+
+skills :
+I love to transform raw data into useful and structuring information.
+I'm fluent at Python, SQL databases, BI tools, and more, with a deep interest in machine learning.
+Here is a quick overview of my different skills.
+
+
+Mes principales qualités :
+	Savoir utiliser des méthodes mathématiques et algorithmes scientifiquement prouvés tout en les innovant
+	Identifier le besoin client dans l’objectif de parfaitement y répondre
+	Respecter l’intégrité, la cohérence et la sécurité des données clients
